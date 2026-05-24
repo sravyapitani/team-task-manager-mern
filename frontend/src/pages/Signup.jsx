@@ -14,7 +14,7 @@ function Signup() {
     try {
 
       await axios.post(
-        "http://localhost:5000/api/auth/signup",
+        "https://team-task-manager-mern-ad0z.onrender.com/auth/signup",
         {
           name,
           email,

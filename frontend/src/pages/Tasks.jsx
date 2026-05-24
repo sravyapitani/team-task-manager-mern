@@ -14,7 +14,7 @@ function Tasks() {
     try {
 
       const res = await axios.get(
-        "http://localhost:5000/api/tasks"
+        "https://team-task-manager-mern-ad0z.onrender.com/api/tasks"
       );
 
       setTasks(res.data);
